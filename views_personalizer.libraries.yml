@@ -1,0 +1,13 @@
+dataTables:
+  css:
+    theme:
+      https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css: { external: true }
+      assets/css/jquery.multiselect.css: {}
+      assets/css/views_personalizer.css: {}
+  js:
+    https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js: { external: true }
+    https://cdn.jsdelivr.net/gh/jeffreydwalter/ColReorderWithResize@9ce30c640e394282c9e0df5787d54e5887bc8ecc/ColReorderWithResize.js: { external: true }
+    assets/js/jquery.multiselect.js: {}
+    assets/js/views_personalizer.js: {}
+  dependencies:
+    - core/jquery

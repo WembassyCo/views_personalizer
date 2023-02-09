@@ -1,0 +1,22 @@
+add preset entities:
+  title: 'Create new Preset entities'
+
+administer preset entities:
+  title: 'Administer Preset entities'
+  description: 'Allow to access the administration form to configure Preset entities.'
+  restrict access: true
+
+delete preset entities:
+  title: 'Delete Preset entities'
+
+edit preset entities:
+  title: 'Edit Preset entities'
+
+view published preset entities:
+  title: 'View published Preset entities'
+
+view unpublished preset entities:
+  title: 'View unpublished Preset entities'
+
+permission_callbacks:
+  - \Drupal\views_personalizer\ViewsPresetPermissions::generatePermissions

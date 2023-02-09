@@ -1,0 +1,5 @@
+entity.views_preset_type.add_form:
+  route_name: entity.views_preset_type.add_form
+  title: 'Add Preset type'
+  appears_on:
+    - entity.views_preset_type.collection

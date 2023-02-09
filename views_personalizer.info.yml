@@ -1,0 +1,8 @@
+name: Views Personalizer
+type: module
+description: Allows end users to customize a view. Toggling visible columns, changing column sort.
+package: Views
+core_version_requirement: ^8.8 || ^9
+
+dependencies:
+ - drupal:views

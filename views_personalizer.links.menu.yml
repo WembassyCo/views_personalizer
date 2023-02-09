@@ -1,0 +1,8 @@
+
+# Preset type menu items definition
+entity.views_preset_type.collection:
+  title: 'Preset type'
+  route_name: entity.views_preset_type.collection
+  description: 'List Preset type (bundles)'
+  parent: system.admin_structure
+  weight: 99

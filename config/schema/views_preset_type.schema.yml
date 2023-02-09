@@ -1,0 +1,12 @@
+views_personalizer.views_preset_type.*:
+  type: config_entity
+  label: 'Preset type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

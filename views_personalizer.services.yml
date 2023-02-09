@@ -1,0 +1,4 @@
+services:
+  views_personalizer.preset_manager:
+    class: '\Drupal\views_personalizer\PresetManager'
+    arguments: ['@config.factory', '@current_user', '@entity_type.manager']
